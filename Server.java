@@ -14,7 +14,7 @@ public class Server {
 
                 BufferedReader in = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
                 PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-                int x=0;
+                int x = 0;
                 while(true){
                     Scanner nam = new Scanner(System.in);
                     System.out.print("You:");
@@ -31,3 +31,4 @@ public class Server {
         }
     }
 }
+
