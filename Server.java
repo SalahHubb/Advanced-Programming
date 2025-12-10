@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Server {
     public static void main(String[] args) {
-        try (ServerSocket serverSocket = new ServerSocket(3999)) {
+        try ( ServerSocket serverSocket = new ServerSocket(3999)) {
             System.out.println("Server started. Waiting for clients...");
 
             while (true) {
@@ -31,4 +31,5 @@ public class Server {
         }
     }
 }
+
 
