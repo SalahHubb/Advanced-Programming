@@ -9,7 +9,7 @@ public class Client {
 
             BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
             PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
-            int n=0;
+            int n = 0;
             while(true){
                 Scanner nam = new Scanner(System.in);
                 String serverMessage = in.readLine();
@@ -25,3 +25,4 @@ public class Client {
         }
     }
 }
+
